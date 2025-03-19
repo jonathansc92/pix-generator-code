@@ -1,0 +1,20 @@
+{
+  "name": "pix-generator-code",
+  "version": "1.0.0",
+  "description": "Gerador de código pix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathansc92/pix-generator-code.git"
+  },
+  "keywords": ["pix", "código", "qr code", "gerador", "banco central"],
+  "author": "Jonathan Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathansc92/pix-generator-code/issues"
+  },
+  "homepage": "https://github.com/jonathansc92/pix-generator-code#readme"
+}
