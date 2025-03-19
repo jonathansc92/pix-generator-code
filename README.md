@@ -23,8 +23,8 @@ const pixGeneratorCode = new PixGeneratorCode({
     pixKey: "CHAVE PIX",
     merchantName: "Jonathan",
     merchantCity: "Sao Paulo",
-    description: "Pix para Jonathan",
     amount: 56.90,
+    description: "Pix para Jonathan",
     txid: "TXID"
 });
       
@@ -35,8 +35,8 @@ const payload = pixGeneratorCode.getPayload();
 - pixKey: A chave Pix do destinatário. Pode ser um CPF, CNPJ, número de telefone ou e-mail. Deve seguir os padrões exigidos pelo Banco Central.
 - merchantName: Nome do comerciante ou empresa que está recebendo o pagamento.
 - merchantCity: Cidade do comerciante.
-- description: Descrição do pagamento. É opcional, mas pode ser usada para fornecer mais informações sobre a transação.
 - amount: Valor da transação. É opcional e, se não fornecido, será considerado 0.
+- description: Descrição do pagamento. É opcional, mas pode ser usada para fornecer mais informações sobre a transação.
 - txid: ID da transação. Caso não seja informado, será substituído por "***". Ideal para rastreamento e identificação de transações.
 
 ```text

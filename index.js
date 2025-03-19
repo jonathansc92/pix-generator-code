@@ -1,5 +1,5 @@
 export default class PixGeneratorCode {
-    constructor({pixKey, merchantName, merchantCity, description = '', amount = 0, txid = '***'}) {
+    constructor({pixKey, merchantName, merchantCity, amount = 0, description = '', txid = '***'}) {
         this.pixKey = pixKey;
         this.description = this._removeSpecialChars(description);
         this.merchantName = this._removeSpecialChars(merchantName);
