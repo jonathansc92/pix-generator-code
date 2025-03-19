@@ -12,7 +12,7 @@
   },
   "keywords": ["pix", "código", "qr code", "gerador", "banco central"],
   "author": "Jonathan Cruz",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jonathansc92/pix-generator-code/issues"
   },
